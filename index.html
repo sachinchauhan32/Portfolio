@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>+
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#" class="logo"> Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon" onclick="displayNav()"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#skills" style="--i: 2">Skills</a>
+        <a href="#Projects" style="--i: 3">Projects</a>
+        <a href="#about" style="--i: 4">About</a>
+        <!-- <a href="#contact" style="--i: 5">Contact</a> -->
+      </nav>
+    </header>
+    <!-- HOME SECTION (HOME PAGE) START -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>Sachin</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Hi! I am Sachin, a Final Year Student of Computer Science and
+          Engineering. My Technical Interests include Algorithmic Problem
+          Solving and Web Development.
+        </p>
+        <div class="social-media">
+          <a
+            href="https://github.com/sachinchauhan32"
+            style="--i: 6"
+            ><i class='bx bxl-github'></i>
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100067664665043&mibextid=ZbWKwL"
+            style="--i: 7"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGmPjCdhKMKDxbplPSxCxWFpZJqlcJLlFKXMQjdXnGdDJwFRZwSMTTDQhclmWTqBMGCrg"
+            style="--i: 8"
+            ><i class='bx bxl-gmail'></i>
+          </a>
+          <a
+            href="https://instagram.com/__sachinchauhan_?igshid=ZDdkNTZiNTM="
+            style="--i: 9"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/sachin-417b681b3" style="--i: 10"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1XqbUXfsMLABsT3u6DzOa7vbXkYPeOXGY/view?usp=share_link"
+          class="btn"
+          >Resume</a
+        >
+      </div>
+      <div class="homepicture">
+        <img src="image.jpg" alt="picture" />
+      </div>
+    </section>
+    <!-- SKILLS SECTIONS START -->
+    <section class="skills" id="skills" data-aos="fade-up">
+      <div class="skills-content">
+        <h1 class="Skills-heading"><span class="skills"><h2>Skills</h2></span></h1>
+        <li>
+          <h3>C++</h3>
+          <span class="bar"><span class="C"></span></span>
+        </li>
+        <li>
+          <h3>DSA</h3>
+          <span class="bar"><span class="DSA"></span></span>
+        </li>
+        <li>
+          <h3>HTML</h3>
+          <span class="bar"><span class="HTML"></span></span>
+        </li>
+        <li>
+          <h3>CSS</h3>
+          <span class="bar"><span class="CSS"></span></span>
+        </li>
+        <li>
+          <h3>JavaScript</h3>
+          <span class="bar"><span class="javascript"></span></span>
+        </li>
+        <li>
+          <h3>SQL</h3>
+          <span class="bar"><span class="SQL"></span></span>
+        </li>
+        <li>
+          <h3>React.Js</h3>
+          <span class="bar"><span class="React"></span></span>
+        </li>
+      </div>
+    </section>
+    <!-- PROJECT SECTION START -->
+    <section class="Project" id="Projects">
+      <h2 class="heading" data-aos="zoom-out">
+        <span class="Project-class">Projects</span>
+      </h2>
+      <div class="about-project"><h2>I have started Web Development quite recently and have developed three projects apart from this portfolio website. So, Here are some of my projects:</h2></div>
+      <div class="projects-container">
+        <div class="projects-box" data-aos="zoom-in">
+          <i class="bx bxl-facebook-circle"></i>
+          <h3>Facebook Clone</h3>
+          <!-- <p>facebook</p> -->
+          <a href="https://socialfacebookclone.netlify.app" class="btn">View</a>
+        </div>
+        <div class="projects-box" data-aos="zoom-in">
+          <i class="bx bx-credit-card"></i>
+          <h3>Payment Gateway</h3>
+          <!-- <p>Payment Gateway</p> -->
+          <a href="https://paymentgateways.netlify.app" class="btn">View</a>
+        </div>
+        <div class="projects-box" data-aos="zoom-in">
+          <i class="bx bxs-message-rounded-dots"></i>
+          <h3>ChatBot</h3>
+          <!-- <p>chatbot</p> -->
+          <a href="https://chatbbot.netlify.app" class="btn">View</a>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION START -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading" data-aos="zoom-out">
+          About <span class="Mee">Me</span>
+        </h2>
+        <p data-aos="zoom-in">
+          Currently I am pursuing my Bachelors of Technology in Computer Science and Engineering from National Institute of Technology, Hamirpur. I developed interests in Computers and Programming after High School and subsequently started to explore the field of technology. After starting my Bachelors degree, I came to know about Development and found it quite interesting. Since then, I have been developing small projects and websites.
+        </p>
+        <!-- <a href="#" class="btn" data-aos="zoom-in"> Read More</a> -->
+      </div>
+    </section>
+    <!-- CONTACT SECTION START WITH FORM -->
+    <!-- <section class="contact" id="contact">
+      <h2 class="heading" data-aos="zoom-out">Contact <span class="Mee">Me!</span></h2>
+       <form action="https://formspree.io/f/mdovjboo" -->
+        <!-- <form action="formspree.io/sc768769@gmail.com"
+  method="POST" id="form">
+        <div class="input-box" data-aos="zoom-in">
+          <input type="text" name="name" placeholder="Full Name" />
+          <input type="email" name="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box" data-aos="zoom-in">
+          <input type="text" name="subject" placeholder="Subject" />
+        </div>
+        <textarea
+          name="message"
+          id=""
+          cols="10"
+          rows="3"
+          placeholder="Message"
+          required
+          autocomplete="off"
+          data-aos="zoom-in"
+        ></textarea>
+        <button type="submit" class="btn" data-aos="zoom-in">
+          Submit
+        </button>
+      </form> -->
+    <!-- </section> -->
+    <!-- FOOTER DESIGN -->
+    <footer class="footer">
+      <div class="copyright">
+        <h3>&copy; <span>Sachin</span> </h3>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+    <!-- scroll reveal -->
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
